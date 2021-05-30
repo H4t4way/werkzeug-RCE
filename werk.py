@@ -5,7 +5,7 @@ import sys
 import re
 
 if len(sys.argv) != 3:
-    print("USAGE: python2 %s url command" % (sys.argv[0]))
+    print("USAGE: python3 %s url command" % (sys.argv[0]))
     sys.exit(-1)
 
 response = requests.get('%s/console' % (sys.argv[1]))
